@@ -2,6 +2,7 @@
 
 This project provides a face liveness detection system using various models (CNN, Hybrid CNN-RNN, Vision Transformer, LBP+SVM). It's designed to classify face images as either "Live" or "Spoof" to prevent presentation attacks (e.g., holding up a photo to a camera).
 
+
 ## Features
 - **Model Training:** Train different architectures using `main.py`.
 - **Model Comparison:** Evaluate and compare metrics (Accuracy, FAR, FRR, HTER) using `compare_models.py`.
