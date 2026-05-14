@@ -24,6 +24,22 @@ This project provides a face liveness detection system using various models (CNN
 - **Live Webcam Testing:** Real-time liveness detection using your webcam with `webcam_liveness.py`.
 - **Attention Visualization:** Visualize what the ViT model is looking at using `visualize_attention.py`.
 
+## Results & Visualizations
+
+### Inference Examples
+![Live Detection Example](liveness_result_test.png)
+![Spoof Detection Example](spoof_result_test.png)
+
+### Model Performance
+The models achieve robust performance distinguishing live subjects from spoof attempts. 
+![Hybrid Model Accuracy](hybrid_accuracy.png)
+![Hybrid Model Loss](hybrid_loss.png)
+![CNN Accuracy Curve](Accuracy%20curve.png)
+
+### ViT Attention Maps
+The Vision Transformer model provides interpretability by showing where the model focuses its attention to determine liveness.
+![ViT Attention Map](vit_attention_map.png)
+
 ## Getting Started on a New Computer
 
 Follow these instructions to deploy and run this project on another machine.
